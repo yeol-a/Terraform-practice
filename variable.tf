@@ -78,6 +78,7 @@ variable "tuple" {
 
 variable "order" {
     type = string
+    description = "order is variable"
     default = "ayoung" 
 }
 
@@ -88,3 +89,4 @@ output "order" {
 output "random" {
     value = "hashicorp-${random_string.random.result}"
 }
+
